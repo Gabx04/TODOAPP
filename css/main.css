@@ -27,11 +27,12 @@ textarea {
 	max-width: 600px;
 	margin: 120px auto 10px;
 	background: url(http://i.stack.imgur.com/ynxjD.png) repeat-y;
- 	height: 200px;
+ 	height: 150px;
  	line-height: 25px;
  	padding: 2px 10px;
  	border: solid 1px #ddd;
  	outline: none;
+ 	resize: none
 }
 #listaTareas {
 	list-style-type: none;
