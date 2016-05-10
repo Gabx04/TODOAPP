@@ -1,0 +1,63 @@
+body {
+	background-color: mintcream;
+	padding-top: 0;
+	overflow: hidden;
+}
+header {
+	height: 100px;
+	background-color: #00e673;
+	position: fixed;
+	width: 100%;
+
+}
+h1 {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+}
+#todo-app {
+	padding: 5% 10%;
+}
+.textarea-row {
+	padding-bottom: 10%;
+}
+textarea {
+	width: 100%;
+	max-width: 600px;
+	margin: 120px auto 10px;
+	background: url(http://i.stack.imgur.com/ynxjD.png) repeat-y;
+ 	height: 200px;
+ 	line-height: 25px;
+ 	padding: 2px 10px;
+ 	border: solid 1px #ddd;
+ 	outline: none;
+}
+#listaTareas {
+	list-style-type: none;
+}
+li {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	background-color: #e6fff2;
+	padding: 3px 10px;
+}
+#tareasButton {
+	border: none;
+	border-radius: 10px;
+	display: block;
+	color: #008040;
+	font-weight: 600;
+	font-family: 'PT Sans', sans-serif;
+	padding: 5px 10px;
+	outline: none;
+	background-color:  rgba(0, 77, 38,0.3);
+}
+.scroll {
+	height: 200px;
+	overflow: scroll;
+	overflow-x: hidden;
+	width: 100%;
+}
+::wekkit;

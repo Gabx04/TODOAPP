@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>TODO Application</title>
+	<link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+		<h1 class="text-center">TODO APP</h1>
+	</header>
+	<section id="todo-app text-center">
+		<div class="container-fluid">
+			<div class="row textarea-row text-center">
+				<div class="col-xs-12">
+					<textarea placeholder="Escribe una nueva tarea..." id="inputTareas"></textarea>
+					<button type="button" id="tareasButton" onclick="guardarTarea()"><i class="fa fa-plus" aria-hidden="true"></i> AGREGAR</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-offset-3 col-md-6 scroll">
+					<ul id="listaTareas">
+						
+					</ul>
+				</div>
+			</div>
+	</section>
+	<script src="js/main.js"></script>
+</body>
+</html>
