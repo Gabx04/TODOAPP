@@ -1,14 +1,12 @@
 body {
 	background-color: mintcream;
-	padding-top: 0;
-	overflow: hidden;
 }
 header {
-	height: 100px;
+	height: 80px;
 	background-color: #00e673;
 	position: fixed;
 	width: 100%;
-
+	z-index: 1;
 }
 h1 {
 	font-family: 'Signika Negative', sans-serif;
@@ -21,28 +19,45 @@ h1 {
 }
 .textarea-row {
 	padding-bottom: 10%;
+	max-width: 600px;
+	text-align: center;
+	margin: 0 auto 30px;
 }
 textarea {
-	width: 100%;
 	max-width: 600px;
-	margin: 120px auto 10px;
+	width: 100%;
+	margin: 110px auto 10px;
 	background: url(http://i.stack.imgur.com/ynxjD.png) repeat-y;
- 	height: 150px;
+ 	height: 75px;
  	line-height: 25px;
  	padding: 2px 10px;
  	border: solid 1px #ddd;
  	outline: none;
- 	resize: none
+ 	resize: none !important;
+ 	font-family: 'PT Sans', sans-serif;
 }
 #listaTareas {
 	list-style-type: none;
+	padding-left: 10px;
 }
 li {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	background-color: #e6fff2;
+	color: #008040;
 	padding: 3px 10px;
+	margin-bottom: 7px;
+}
+.input-check {
+	margin-right: 20px;
+}
+.sTarea {
+	display: inline-block;
+	padding-left: 10px;
+}
+.fa-trash {
+	float: right;
 }
 #tareasButton {
 	border: none;
@@ -61,4 +76,5 @@ li {
 	overflow-x: hidden;
 	width: 100%;
 }
+
 ::wekkit;

@@ -32,7 +32,7 @@ function mostrarTarea(mostrar) {
 	var trash = document.createElement('span');
 	trash.className = 'fa fa-trash';
 	trash.onclick = function () {
-		listaTareas.remove(li);
+		listaTareas.removeChild(li);
 	}
 	li.appendChild(trash);
 }
