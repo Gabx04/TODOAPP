@@ -20,7 +20,11 @@ function mostrarTarea(mostrar) {
 	check.setAttribute('type', 'checkbox');
 	check.className = 'input-check';
 	check.onchange = function() {
-		spanTarea.innerHTML = mostrar.strike();
+		if (check.checked == true){
+			spanTarea.innerHTML = mostrar.strike();
+		} else {
+			spanTarea.innerHTML = mostrar;
+		}
 	};
 	li.appendChild(check);
 
